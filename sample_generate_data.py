@@ -2,12 +2,8 @@ import numpy as np
 import rosbag
 import os
 import glob
-import pdb
 import cv2
 from cv_bridge import CvBridge, CvBridgeError
-import time
-import shutil
-import pandas as pd
 import argparse
 
 from utils import *
